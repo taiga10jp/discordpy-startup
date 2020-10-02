@@ -21,9 +21,4 @@ async def ping(ctx):
 @bot.command()
 async def laz(ctx):
     await ctx.send('ｴｰｽｴｰｽ…')
-    
-    
-@tasks.loop(seconds=10)
-async def loop():
-    channel = client.get_channel(389417425868947457)
-    await channel.send('ああああああああ') 
+   
